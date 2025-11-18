@@ -10,6 +10,7 @@ import { BsBroadcast } from "react-icons/bs";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
+import { PiChatsCircleBold } from "react-icons/pi";
 // import { FaRegDotCircle } from "react-icons/di";
 const Home = () => {
   return (
@@ -61,7 +62,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-white rounded-2xl h-screen m-6">
+      <section className="bg-white rounded-2xl h-screen m-6 pt-16">
         <div className="flex justify-between">
           <div className="flex gap-6">
             <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
@@ -90,7 +91,7 @@ const Home = () => {
               <FaRegArrowAltCircleRight/>
             </div>
           </div>
-          <div className="bg-black text-white rounded-2xl p-4 w-full">
+          <div className="bg-black text-white rounded-2xl p-4 w-full h-96">
             <h1>The coach experts and simple software for better sportinment.</h1>
             <div className="flex justify-between m-2.5">
               <div className="flex gap-4 items-center">
@@ -133,6 +134,37 @@ const Home = () => {
           </div>
         </div>
 
+      </section>
+
+      <section className="bg-black text-white rounded-2xl p-8 m-5 h-screen">
+        <div className="flex gap-9">
+          <div>
+            <span>CURRENT EVENTS</span>
+          </div>
+          <div>
+            <h1>To win over sports-minded consumers with products own technology and excellent.</h1>
+          </div>
+        </div>
+        <div>
+          <div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="h-screen">
+        <div className="flex justify-between">
+          <div>
+            <h1>What people are honestly saying right now</h1>
+          </div>
+          <div>
+            <span>Testimonial</span>
+            <div>
+              <PiChatsCircleBold/>
+              <h5>Customer Says</h5>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
