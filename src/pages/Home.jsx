@@ -15,13 +15,14 @@ import { PiChatsCircleBold } from "react-icons/pi";
 const Home = () => {
   return (
     <>
-      <div
-        className="bg-[url(../assets/hero.jpg)] min-h-screen bg-no-repeat bg-cover bg-center top-0 left-0">
+      <div className="bg-[url(../assets/hero.jpg)] min-h-screen bg-no-repeat bg-cover bg-center top-0 left-0">
         <Header />
-        <section>
-          <div className="text-3xl text-blue-800 absolute right-1 top-80">
-            <h1 className="text-white text-2xl font-bold ">A new species of sportinment.</h1>
-            <div className="flex gap-4 items-center">
+        <section className="m-4 pt-16">
+          <div className="text-3xl text-yellow-500 ">
+            <h1 className="text-blue text-7xl font-bold p-4 ">
+              A new species <br /> of sportinment.
+            </h1>
+            <div className="flex gap-4 items-center bg-white text-blue-700 rounded-2xl p-4">
               <LuCrown />
               <h3>Improve your health - performance well</h3>
             </div>
@@ -29,8 +30,8 @@ const Home = () => {
         </section>
       </div>
 
-      <section>
-        <div className="flex justify-around">
+      <section className="py-6 min-h-[65vh]">
+        <div className="flex justify-around pt-[5em]">
           <div>
             <span className="flex gap-2.5 items-center">
               <FaRegDotCircle />
@@ -49,7 +50,7 @@ const Home = () => {
               </span>
             </div>
           </div>
-          <div className="bg-white rounded-2xl px-4 py-4 min-h-50">
+          <div className="bg-white rounded-2xl px-4 py-4 min-h-[50vh]">
             <div>
               <span>EST - 1997</span>
               <h2>
@@ -62,9 +63,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-white rounded-2xl h-screen m-6 pt-16">
+      <section className="bg-white rounded-2xl h-screen m-6 px-4 py-16">
         <div className="flex justify-between">
-          <div className="flex gap-6">
+          <div className="flex gap-6 p-4 mb-8">
             <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
               <CiBasketball />
               <h2>Virtual Challages</h2>
@@ -74,7 +75,7 @@ const Home = () => {
               <h2>Community Tournaments</h2>
             </span>
           </div>
-          <div className="flex gap-1.5 font-bold">
+          <div className="flex gap-1.5 font-bold items-center">
             <FaRegDotCircle />
             <h2>The Program</h2>
           </div>
@@ -84,56 +85,59 @@ const Home = () => {
             <div>
               <span className="text-7xl ">01</span>
               <span className="text-gray-700">/B</span>
-              <span className="text-gray-700">Upcoming <br />Events</span>
+              <span className="text-gray-700">
+                Upcoming <br />
+                Events
+              </span>
             </div>
             <div className="flex gap-4">
-              <FaRegArrowAltCircleLeft />
-              <FaRegArrowAltCircleRight/>
+              <FaRegArrowAltCircleLeft size={45} />
+              <FaRegArrowAltCircleRight size={45} />
             </div>
           </div>
           <div className="bg-black text-white rounded-2xl p-4 w-full h-96">
-            <h1>The coach experts and simple software for better sportinment.</h1>
+            <h1>
+              The coach experts and simple software for better sportinment.
+            </h1>
             <div className="flex justify-between m-2.5">
               <div className="flex gap-4 items-center">
-                < BsBroadcast />
+                <BsBroadcast />
                 <h3>Live</h3>
               </div>
               <div>
-                <button className="border border-white rounded-2xl">basketit.com</button>
+                <button className="border border-white rounded-2xl">
+                  basketit.com
+                </button>
               </div>
             </div>
           </div>
-          <div className="bg-[url(../assets/hero.jpg)] rounded-2xl p-4 w-full min-h-4/5">
+          <div className="bg-[url(../assets/hero.jpg)] rounded-2xl p-4 w-full min-h-4/5 bg-no-repeat bg-cover">
             <h4>1.20K Membership</h4>
-            <h1>Chemistry <br /> Sport Partner</h1>
+            <h1>
+              Chemistry <br /> Sport Partner
+            </h1>
           </div>
-
         </div>
       </section>
 
       <section className="h-screen bg-gray-100 flex">
         <div className="">
-          <div>
-
-          </div>
+          <div></div>
         </div>
         <div>
           <div>
             <span>FEATURED FEATURES</span>
             <h1>Stay motivated with activity tracking</h1>
-            <div className="flex">
-
-            </div>
+            <div className="flex"></div>
           </div>
           <div className="flex">
             <div>
               <h2>Record - activities to boost your performance</h2>
               <p className="font-bold">WITH GPT 4.0</p>
-              < BsArrowUpRightCircleFill size={70} color="orange"/>
+              <BsArrowUpRightCircleFill size={70} color="orange" />
             </div>
           </div>
         </div>
-
       </section>
 
       <section className="bg-black text-white rounded-2xl p-8 m-5 h-screen">
@@ -142,13 +146,14 @@ const Home = () => {
             <span>CURRENT EVENTS</span>
           </div>
           <div>
-            <h1>To win over sports-minded consumers with products own technology and excellent.</h1>
+            <h1>
+              To win over sports-minded consumers with products own technology
+              and excellent.
+            </h1>
           </div>
         </div>
         <div>
-          <div>
-
-          </div>
+          <div></div>
         </div>
       </section>
 
@@ -160,7 +165,7 @@ const Home = () => {
           <div>
             <span>Testimonial</span>
             <div>
-              <PiChatsCircleBold/>
+              <PiChatsCircleBold />
               <h5>Customer Says</h5>
             </div>
           </div>

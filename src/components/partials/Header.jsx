@@ -2,8 +2,8 @@ import { IoSunnyOutline, IoMoonOutline } from 'react-icons/io5';
 import { NavLink, Link } from 'react-router-dom'
 const Header = () => {
   return (
-    <header className=" bg-white  m-4 rounded-4xlc p-4 fixed w-full backdrop:blur-lg z-50 top-0 ">
-      <div className="flex justify-between p-4">
+    <header className="rounded-4xlc p-4  w-full backdrop:blur-lg z-50 top-0 ">
+      <div className="flex justify-between items-center">
         <nav className="flex gap-6">
           <Link to="/">
             <h4 className="">Basket-It</h4>
@@ -13,7 +13,7 @@ const Header = () => {
           <NavLink to="">Events</NavLink>
           <NavLink to="">About</NavLink>
         </nav>
-        <div className="light-mode flex justify-between bg-gray-600 p-4 rounded-2xl m-[1em]">
+        <div className="light-mode flex justify-between bg-gray-100 p-2 rounded-2xl m-[1em]">
           <div>
             {/* <Link to=""> */}
               <IoSunnyOutline size={25} />
@@ -21,13 +21,13 @@ const Header = () => {
           </div>
           <div>
             {/* <Link to=""> */}
-              <IoMoonOutline size={25} />
+              {/* <IoMoonOutline size={25} /> */}
             {/* </Link> */}
           </div>
         </div>
       </div>
       <hr />
-      <div>
+      <div className='flex justify-between p-2'>
         <Link to="">
           <h3>CUSTOM WELLNESS</h3>
         </Link>
