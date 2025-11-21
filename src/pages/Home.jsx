@@ -150,7 +150,7 @@ const Home = () => {
               <p className="font-bold">WITH GPT 4.0</p>
               <BsArrowUpRightCircleFill size={70} color="orange" />
             </div>
-            <div className="bg-[url(../assets/kick.jpg)] w-full h-[15em] "> 
+            <div className="bg-[url(./assets/kick.jpg)] w-full h-[15em] "> 
 
             </div>
           </div>
@@ -203,7 +203,7 @@ const Home = () => {
 
             </div>
           </div>
-          <div className="bg-[url(../assets/tennis.jpg)] bg-no-repeat bg-cover bg-center">
+          <div className="bg-no-repeat bg-cover bg-center">
 
           </div>
         </div>

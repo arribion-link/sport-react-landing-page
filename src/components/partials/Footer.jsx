@@ -5,7 +5,9 @@ const Footer = () => {
     <>
       <div>
         <div className=""></div>
-        <div></div>
+        <div>
+          
+        </div>
         <div>
           <ul>
             <li>
