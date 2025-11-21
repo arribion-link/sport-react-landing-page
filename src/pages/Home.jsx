@@ -12,6 +12,10 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import { PiChatsCircleBold } from "react-icons/pi";
 // import { FaRegDotCircle } from "react-icons/di";
+import { VscJersey } from "react-icons/vsc";
+import { CiCloudSun } from "react-icons/ci";
+import { FaBasketballBall } from "react-icons/fa";
+import { DiDotnet } from "react-icons/di";
 const Home = () => {
   return (
     <>
@@ -120,33 +124,46 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="h-screen bg-gray-100 flex">
-        <div className="">
-          <div></div>
+      <section className="h-screen bg-gray-100 grid grid-cols-2 m-4">
+        <div className="p-[1em]">
+          <div className="bg-gray-400 w-full h-full bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
+            <div className="bg-white rounded-2xl w-[6em] h-[6em]"></div>
+          </div>
         </div>
         <div>
           <div>
-            <span>FEATURED FEATURES</span>
-            <h1>Stay motivated with activity tracking</h1>
-            <div className="flex"></div>
+            <span className="font-bold">FEATURED FEATURES</span>
+            <h1 className="text-5xl text-black mb-2 ">Stay motivated with activity tracking</h1>
+            <div className="flex gap-2">
+              <VscJersey size={45} className="p-2 bg-white rounded-4xl" />
+              <CiCloudSun size={45} className="p-2 bg-white rounded-4xl" />
+              <FaBasketballBall
+                size={45}
+                className="p-2 bg-white rounded-4xl"
+              />
+              <span className="bg-orange-400 p-2 rounded-4xl">8 +</span>
+            </div>
           </div>
-          <div className="flex">
+          <div className="grid grid-cols-2 rounded-2xl bg-no-repeat bg-center bg-cover mt-[5em]">
             <div>
               <h2>Record - activities to boost your performance</h2>
               <p className="font-bold">WITH GPT 4.0</p>
               <BsArrowUpRightCircleFill size={70} color="orange" />
             </div>
+            <div className="bg-[url(../assets/kick.jpg)] w-full h-[15em] "> 
+
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="bg-black text-white rounded-2xl p-8 m-5 h-screen">
-        <div className="flex gap-9">
+      <section className="bg-black text-white rounded-2xl p-8 m-5 h-[60vh] ">
+        <div className="grid grid-cols-[ifr, 2fr] gap-9">
           <div>
             <span>CURRENT EVENTS</span>
           </div>
           <div>
-            <h1>
+            <h1 className="font-bold text-4xl">
               To win over sports-minded consumers with products own technology
               and excellent.
             </h1>
@@ -157,17 +174,37 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="h-screen">
+      <section className="h-screen m-4">
         <div className="flex justify-between">
           <div>
             <h1>What people are honestly saying right now</h1>
           </div>
           <div>
-            <span>Testimonial</span>
-            <div>
+            <span className="bg-white p-2 rounded-4xl m-4">Testimonial</span>
+            <div className="flex gap-4 bg-white p-2 rounded-4xl ">
               <PiChatsCircleBold />
               <h5>Customer Says</h5>
             </div>
+          </div>
+        </div>
+        <div className="bg-white rounded-2xl h-[70vh] p-4 mt-8 grid grid-cols-2">
+          <div>
+            <div className="font-bold flex gap-2">
+              <DiDotnet />
+              <p><span>1</span>/<span>20</span></p>
+            </div>
+
+            <h2>
+              "The activity tracker keeps me on track, and the community pushes me to keep
+              Me going. It's the perfect mix of fun and fitness"
+            </h2>
+
+            <div>
+
+            </div>
+          </div>
+          <div className="bg-[url(../assets/tennis.jpg)] bg-no-repeat bg-cover bg-center">
+
           </div>
         </div>
       </section>
