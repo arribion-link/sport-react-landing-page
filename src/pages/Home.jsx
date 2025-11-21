@@ -187,8 +187,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white rounded-2xl h-[70vh] p-4 mt-8 grid grid-cols-2">
-          <div>
+        <div className="bg-white rounded-2xl h-[70vh]  mt-8 grid grid-cols-2">
+          <div className="p-4">
             <div className="font-bold flex gap-2">
               <DiDotnet />
               <p><span>1</span>/<span>20</span></p>
@@ -203,7 +203,7 @@ const Home = () => {
 
             </div>
           </div>
-          <div className="bg-no-repeat bg-cover bg-center">
+          <div className="bg-[url(../assets/tennis.jpg)] bg-no-repeat bg-cover bg-center rounded-2xl">
 
           </div>
         </div>
