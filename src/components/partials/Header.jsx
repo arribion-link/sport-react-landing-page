@@ -26,7 +26,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className='text-white' />
       <div className='flex justify-between p-2'>
         <Link to="">
           <h3>CUSTOM WELLNESS</h3>
