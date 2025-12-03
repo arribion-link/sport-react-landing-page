@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="rounded-4xlc p-4  w-full backdrop:blur-lg z-50 top-0 ">
       <div className="flex justify-between items-center">
-        <nav className="hidden gap-6">
+        <nav className="hidden md:flex gap-6">
           <Link to="/">
             <h4 className="">Basket-It</h4>
           </Link>

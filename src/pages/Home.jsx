@@ -35,7 +35,7 @@ const Home = () => {
       </div>
 
       <section className="py-6 m-4 min-h-[65vh]">
-        <div className="flex flex-col justify-around pt-[5em]">
+        <div className="flex flex-col md:flex-row  md:justify-between pt-[5em]">
           <div>
             <span className="flex gap-2.5 items-center">
               <FaRegDotCircle />
@@ -44,7 +44,7 @@ const Home = () => {
             <h1 className="font-bold text-4xl">
               Explore our flexible of activity.
             </h1>
-            <div className="flex justify-between my-4">
+            <div className="flex justify-between md:justify-around my-4">
               <span className="flex gap-2 items-center bg-white p-4 rounded-2xl">
                 <BiDish />
                 Eating After the Game
@@ -84,7 +84,7 @@ const Home = () => {
             <h2>The Program</h2>
           </div>
         </div>
-        <div className="flex flex-col justify-between gap-8">
+        <div className="flex flex-col justify-between md:grid md:grid-cols-3 gap-8">
           <div className="w-full">
             <div>
               <span className="text-7xl ">01</span>
@@ -124,9 +124,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="min-h-screen flex flex-col-reverse bg-gray-100 m-4">
+      <section className="min-h-screen flex flex-col-reverse md:grid md:grid-cols-2 bg-gray-100 m-4">
         <div className="p-[1em]">
-          <div className="bg-gray-400 w-full min-h-40 bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
+          <div className="bg-gray-400 w-full min-h-40 md:min-h-[70vh] bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
             <div className="bg-white rounded-2xl w-[6em] h-[6em]"></div>
           </div>
         </div>
@@ -177,7 +177,7 @@ const Home = () => {
       </section>
 
       <section className="min-h-screen m-4">
-        <div className="flex justify-between">
+        <div className="flex justify-between ">
           <div>
             <h1>What people are honestly saying right now</h1>
           </div>
@@ -189,7 +189,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white rounded-2xl h-[70vh]  mt-8 flex flex-col-reverse">
+        <div className="bg-white rounded-2xl h-[70vh]  mt-8 flex flex-col-reverse md:flex-row md:justify-between">
           <div className="p-4">
             <div className="font-bold flex gap-2">
               <DiDotnet />

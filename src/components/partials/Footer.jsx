@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer className="text-white bg-black min-h-[70vh] pt-[7em] p-4">
-        <div className="flex flex-col justify-around">
+        <div className="flex flex-col justify-around md:grid md:grid-cols-3">
           <div className="bg-[url(../assets/last.jpg)] bg-no-repeat bg-cover  rounded-2xl min-w-[10em] min-h-[90vh] p-4">
             <span>NEW EXPERIENCE</span>
             <h2>Explore More</h2>
@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="text-4xl my-4 ">
               We're doing eevrything <br /> for future healthiness
             </p>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col md:flex md:gap-4 gap-4">
               <div className="text-black  py-1 px-4 bg-white rounded-4xl">
                 Trainer & Coach Access
               </div>
