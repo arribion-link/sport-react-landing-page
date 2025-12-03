@@ -4,68 +4,73 @@ const Footer = () => {
   return (
     <>
       <footer className="text-white bg-black min-h-[70vh] pt-[7em] p-4">
-        <div className="flex justify-around">
-          <div className="bg-[url(../assets/last.jpg)] bg-no-repeat bg-cover  rounded-2xl min-w-[10em] min-h-[10em]">
+        <div className="flex flex-col justify-around">
+          <div className="bg-[url(../assets/last.jpg)] bg-no-repeat bg-cover  rounded-2xl min-w-[10em] min-h-[90vh] p-4">
             <span>NEW EXPERIENCE</span>
             <h2>Explore More</h2>
             <BsArrowUpRightCircleFill size={40} color="white" />
           </div>
           <div>
-            <p className="text-4xl mb-2">
+            <p className="text-4xl my-4 ">
               We're doing eevrything <br /> for future healthiness
             </p>
-            <div>
-              <span className="text-black  py-1 px-4 ml-2 bg-white rounded-4xl">
+            <div className="flex flex-col gap-4">
+              <div className="text-black  py-1 px-4 bg-white rounded-4xl">
                 Trainer & Coach Access
-              </span>
-              <span className="text-black py-1 px-4 ml-2 bg-white rounded-4xl">
+              </div>
+              <div className="text-black py-1 px-4 bg-white rounded-4xl">
                 Priority Event
-              </span>
-              <span className="text-black py-1 px-4 ml-2 bg-white rounded-4xl">
+              </div>
+              <div className="text-black py-1 px-4 bg-white rounded-4xl">
                 badgets
-              </span>
+              </div>
             </div>
           </div>
-          <div>
-            <ul>
-              <li>
-                <Link to="/">Program</Link>
-              </li>
-              <li>
-                <Link to="/">Product</Link>
-              </li>
-              <li>
-                <Link to="/">Events</Link>
-              </li>
-              <ul>
-                <li>
-                  <Link to="/">X(Twitter)</Link>
-                </li>
-                <li>
-                  <Link to="/">Instagram</Link>
-                </li>
-                <li>
-                  <Link to="/">About</Link>
-                </li>
-              </ul>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>
-                <Link to="/">X(Twitter)</Link>
-              </li>
-              <li>
-                <Link to="/">Instagram</Link>
-              </li>
-              <li>
-                <Link to="/">LinkedIn</Link>
-              </li>
-            </ul>
+
+          <div className="flex justify-between">
+              <div className="my-4">
+                <ul>
+                  <li>
+                    <Link to="/">Program</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Product</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Events</Link>
+                  </li>
+                  <ul>
+                    <li>
+                      <Link to="/">X(Twitter)</Link>
+                    </li>
+                    <li>
+                      <Link to="/">Instagram</Link>
+                    </li>
+                    <li>
+                      <Link to="/">About</Link>
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+              <div className="my-4">
+                <ul>
+                  <li className="hover:underline">
+                    <Link to="/">X(Twitter)</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Instagram</Link>
+                  </li>
+                  <li>
+                    <Link to="/">LinkedIn</Link>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
+
         <hr className="my-4 text-gray-900" />
-        <div className="flex justify-between mt-16">
+
+        <div className="flex flex-col gap-4 justify-between mt-16">
           <div>
             <p>Nairobi - Kenya</p>
             <p>Kirinyaga - Kenya</p>
@@ -79,8 +84,10 @@ const Footer = () => {
             </h1>
           </div>
         </div>
+
         <hr className="my-4 text-gray-900" />
-        <div className="flex justify-between">
+
+        <div className="flex flex-col justify-between">
           <div>
             <h1>Private Policy</h1>
           </div>

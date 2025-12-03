@@ -23,7 +23,7 @@ const Home = () => {
         <Header />
         <section className="m-4 pt-16">
           <div className="text-3xl text-yellow-500 ">
-            <h1 className="text-blue text-7xl font-bold p-4 ">
+            <h1 className="text-blue text-[clamp(1em, 5vw, 3em)] font-bold p-4 ">
               A new species <br /> of sportinment.
             </h1>
             <div className="flex gap-4 items-center bg-white text-blue-700 rounded-2xl p-4">
@@ -34,8 +34,8 @@ const Home = () => {
         </section>
       </div>
 
-      <section className="py-6 min-h-[65vh]">
-        <div className="flex justify-around pt-[5em]">
+      <section className="py-6 m-4 min-h-[65vh]">
+        <div className="flex flex-col justify-around pt-[5em]">
           <div>
             <span className="flex gap-2.5 items-center">
               <FaRegDotCircle />
@@ -44,7 +44,7 @@ const Home = () => {
             <h1 className="font-bold text-4xl">
               Explore our flexible of activity.
             </h1>
-            <div className="flex gap-6">
+            <div className="flex justify-between my-4">
               <span className="flex gap-2 items-center bg-white p-4 rounded-2xl">
                 <BiDish />
                 Eating After the Game
@@ -68,7 +68,7 @@ const Home = () => {
       </section>
 
       <section className="bg-white rounded-2xl min-h-screen m-6 px-4 py-16">
-        <div className="flex justify-between">
+        <div className="flex flex-col-reverse justify-between">
           <div className="flex gap-6 p-4 mb-8">
             <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
               <CiBasketball />
@@ -109,13 +109,13 @@ const Home = () => {
                 <h3>Live</h3>
               </div>
               <div>
-                <button className="border border-white rounded-2xl">
+                <button className="border border-white rounded-2xl py-1 px-4">
                   basketit.com
                 </button>
               </div>
             </div>
           </div>
-          <div className="bg-[url(../assets/hero.jpg)] rounded-2xl p-4 w-full min-h-4/5 bg-no-repeat bg-cover">
+          <div className="bg-[url(../assets/hero.jpg)] min-h-80 rounded-2xl p-4 w-full bg-no-repeat bg-cover">
             <h4>1.20K Membership</h4>
             <h1>
               Chemistry <br /> Sport Partner
@@ -124,16 +124,18 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="min-h-screen bg-gray-100 grid grid-cols-2 m-4">
+      <section className="min-h-screen flex flex-col-reverse bg-gray-100 m-4">
         <div className="p-[1em]">
-          <div className="bg-gray-400 w-full h-full bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
+          <div className="bg-gray-400 w-full min-h-40 bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
             <div className="bg-white rounded-2xl w-[6em] h-[6em]"></div>
           </div>
         </div>
         <div>
           <div>
             <span className="font-bold">FEATURED FEATURES</span>
-            <h1 className="text-5xl text-black mb-2 ">Stay motivated with activity tracking</h1>
+            <h1 className="text-5xl text-black mb-2 ">
+              Stay motivated with activity tracking
+            </h1>
             <div className="flex gap-2">
               <VscJersey size={45} className="p-2 bg-white rounded-4xl" />
               <CiCloudSun size={45} className="p-2 bg-white rounded-4xl" />
@@ -145,14 +147,14 @@ const Home = () => {
             </div>
           </div>
           <div className="grid grid-cols-2 rounded-2xl bg-no-repeat bg-center bg-cover mt-[5em]">
-            <div>
-              <h2>Record - activities to boost your performance</h2>
-              <p className="font-bold">WITH GPT 4.0</p>
+            <div className="flex justify-between">
+              <div>
+                <h2>Record - activities to boost your performance</h2>
+                <p className="font-bold">WITH GPT 4.0</p>
+              </div>
               <BsArrowUpRightCircleFill size={70} color="orange" />
             </div>
-            <div className="bg-[url(./assets/kick.jpg)] w-full h-[15em] "> 
-
-            </div>
+            <div className="bg-[url(./assets/kick.jpg)] w-full h-[15em] "></div>
           </div>
         </div>
       </section>
@@ -187,25 +189,23 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white rounded-2xl h-[70vh]  mt-8 grid grid-cols-2">
+        <div className="bg-white rounded-2xl h-[70vh]  mt-8 flex flex-col-reverse">
           <div className="p-4">
             <div className="font-bold flex gap-2">
               <DiDotnet />
-              <p><span>1</span>/<span>20</span></p>
+              <p>
+                <span>1</span>/<span>20</span>
+              </p>
             </div>
 
             <h2>
-              "The activity tracker keeps me on track, and the community pushes me to keep
-              Me going. It's the perfect mix of fun and fitness"
+              "The activity tracker keeps me on track, and the community pushes
+              me to keep Me going. It's the perfect mix of fun and fitness"
             </h2>
 
-            <div>
-
-            </div>
+            <div></div>
           </div>
-          <div className="bg-[url(../assets/tennis.jpg)] bg-no-repeat bg-cover bg-center rounded-2xl">
-
-          </div>
+          <div className="bg-[url(../assets/tennis.jpg)] bg-no-repeat bg-cover bg-center rounded-2xl"></div>
         </div>
       </section>
     </>
