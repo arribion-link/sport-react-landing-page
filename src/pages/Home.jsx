@@ -67,7 +67,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-white rounded-2xl h-screen m-6 px-4 py-16">
+      <section className="bg-white rounded-2xl min-h-screen m-6 px-4 py-16">
         <div className="flex justify-between">
           <div className="flex gap-6 p-4 mb-8">
             <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
@@ -84,7 +84,7 @@ const Home = () => {
             <h2>The Program</h2>
           </div>
         </div>
-        <div className="flex justify-between gap-8">
+        <div className="flex flex-col justify-between gap-8">
           <div className="w-full">
             <div>
               <span className="text-7xl ">01</span>
@@ -124,7 +124,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="h-screen bg-gray-100 grid grid-cols-2 m-4">
+      <section className="min-h-screen bg-gray-100 grid grid-cols-2 m-4">
         <div className="p-[1em]">
           <div className="bg-gray-400 w-full h-full bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
             <div className="bg-white rounded-2xl w-[6em] h-[6em]"></div>
@@ -157,7 +157,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-black text-white rounded-2xl p-8 m-5 h-[60vh] ">
+      <section className="bg-black text-white rounded-2xl p-8 m-5 min-h-[60vh] ">
         <div className="grid grid-cols-[ifr, 2fr] gap-9">
           <div>
             <span>CURRENT EVENTS</span>
@@ -174,7 +174,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="h-screen m-4">
+      <section className="min-h-screen m-4">
         <div className="flex justify-between">
           <div>
             <h1>What people are honestly saying right now</h1>
