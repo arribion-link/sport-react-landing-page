@@ -15,16 +15,16 @@ const Benefits = () => {
             Explore our flexible of activity.
           </h1>
           <div className="flex justify-between md:justify-around my-4">
-            <span className="flex gap-2 items-center bg-white p-4 rounded-2xl">
+            <span className="flex gap-2 items-center bg-white shadow p-4 rounded-2xl">
               <BiDish />
               Eating After the Game
             </span>
-            <span className="flex gap-2 items-center  bg-white p-4 rounded-2xl">
+            <span className="flex gap-2 items-center  bg-white shadow p-4 rounded-2xl">
               <TbShirtSport /> Game Jersey
             </span>
           </div>
         </div>
-        <div className="bg-white rounded-2xl px-4 py-4 min-h-[50vh]">
+        <div className="bg-white shadow rounded-2xl px-4 py-4 min-h-[50vh]">
           <div>
             <span>EST - 1997</span>
             <h2>

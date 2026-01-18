@@ -3,20 +3,20 @@ import { DiDotnet } from "react-icons/di";
 
 const Testimonial = () => {
   return (
-    <section className="min-h-screen m-4">
+    <section className="min-h-screen mx-4 my-[5em] ">
       <div className="flex justify-between ">
-        <div>
-          <h1>What people are honestly saying right now</h1>
+        <div className="">
+          <h1 className="text-2xl">What people are honestly saying right now</h1>
         </div>
         <div>
-          <span className="bg-white p-2 rounded-4xl m-4">Testimonial</span>
-          <div className="flex gap-4 bg-white p-2 rounded-4xl ">
+          <span className="bg-white py-1 rounded-4xl px-8 my-4">Testimonial</span>
+          <div className="flex gap-4 items-center bg-white py-1 px-4 my-4 rounded-4xl ">
             <PiChatsCircleBold />
             <h5>Customer Says</h5>
           </div>
         </div>
       </div>
-      <div className="bg-white rounded-2xl h-[70vh]  mt-8 flex flex-col-reverse md:flex-row md:justify-between">
+      <div className="bg-white shadow rounded-2xl h-[70vh]  mt-8 flex flex-col-reverse md:flex-row md:justify-between">
         <div className="p-4">
           <div className="font-bold flex gap-2">
             <DiDotnet />

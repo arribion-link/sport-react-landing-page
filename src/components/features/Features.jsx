@@ -18,10 +18,10 @@ const Features = () => {
             Stay motivated with activity tracking
           </h1>
           <div className="flex gap-2">
-            <VscJersey size={45} className="p-2 bg-white rounded-4xl" />
-            <CiCloudSun size={45} className="p-2 bg-white rounded-4xl" />
-            <FaBasketballBall size={45} className="p-2 bg-white rounded-4xl" />
-            <span className="bg-orange-400 p-2 rounded-4xl">8 +</span>
+            <VscJersey size={45} className="p-2 bg-white shadow rounded-4xl" />
+            <CiCloudSun size={45} className="p-2 bg-white shadow rounded-4xl" />
+            <FaBasketballBall size={45} className="p-2 bg-white shadow rounded-4xl" />
+            <span className="bg-orange-400 p-2 shadow rounded-4xl">8 +</span>
           </div>
         </div>
         <div className="grid grid-cols-2 rounded-2xl bg-no-repeat bg-center bg-cover mt-[5em]">

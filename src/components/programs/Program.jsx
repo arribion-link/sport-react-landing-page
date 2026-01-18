@@ -6,14 +6,14 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import {FaRegDotCircle} from "react-icons/fa"
 const Program = () => {
   return (
-    <section className="bg-white rounded-2xl min-h-screen m-6 px-4 py-16">
+    <section className="bg-white shadow rounded-2xl min-h-screen m-6 px-4 py-16">
       <div className="flex flex-col-reverse justify-between">
         <div className="flex gap-6 p-4 mb-8">
-          <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
+          <span className="items-center flex gap-2.5 px-4 py-1 bg-gray-400 rounded-2xl">
             <CiBasketball />
             <h2>Virtual Challages</h2>
           </span>
-          <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
+          <span className="items-center flex gap-2.5 px-4 py-1 bg-gray-400 rounded-2xl">
             <IoTrophyOutline />
             <h2>Community Tournaments</h2>
           </span>
