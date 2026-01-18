@@ -6,7 +6,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import {FaRegDotCircle} from "react-icons/fa"
 const Program = () => {
   return (
-    <section className="bg-white shadow rounded-2xl min-h-screen m-6 px-4 py-16">
+    <section className="bg-white shadow rounded-2xl min-h-screen mx-4 my-20 px-4 py-16">
       <div className="flex flex-col-reverse justify-between">
         <div className="flex gap-6 p-4 mb-8">
           <span className="items-center flex gap-2.5 px-4 py-1 bg-gray-400 rounded-2xl">
@@ -52,7 +52,7 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url(../assets/hero.jpg)] min-h-80 rounded-2xl p-4 w-full bg-no-repeat bg-cover">
+        <div className="bg-[url(../assets/field.jpg)] min-h-80 rounded-2xl p-4 w-full bg-no-repeat bg-cover">
           <h4>1.20K Membership</h4>
           <h1>
             Chemistry <br /> Sport Partner

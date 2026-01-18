@@ -2,7 +2,7 @@ import React from 'react'
 
 const Events = () => {
   return (
-    <section className="bg-black text-white rounded-2xl p-8 m-5 min-h-[60vh] ">
+    <section className="bg-black text-white rounded-2xl p-8 mx-4 my-20 min-h-[60vh] ">
       <div className="grid grid-cols-[ifr, 2fr] gap-9">
         <div>
           <span>CURRENT EVENTS</span>

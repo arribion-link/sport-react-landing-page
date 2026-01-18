@@ -5,25 +5,25 @@ const CallToAction = () => {
 
     // ]
   return (
-    <section>
-      <div className="flex flex-col justify-around md:grid md:grid-cols-3">
-        <div className="bg-[url(../assets/last.jpg)] bg-no-repeat bg-cover  rounded-2xl min-w-[10em] min-h-[90vh] p-4">
+    <section className="mx-4 min-h-screen my-[5em] ">
+      <div className="flex flex-col justify-around md:grid md:grid-cols-3 gap-8">
+        <div className="bg-[url(../assets/last.jpg)] bg-no-repeat bg-cover  m-2 rounded-2xl min-w-[10em] min-h-[90vh] p-4">
           <span>NEW EXPERIENCE</span>
           <h2>Explore More</h2>
           <BsArrowUpRightCircleFill size={40} color="white" />
         </div>
         <div>
           <p className="text-4xl my-4 ">
-            We're doing eevrything <br /> for future healthiness
+            We're doing everything <br /> for future healthiness
           </p>
-          <div className="flex flex-col md:flex md:gap-4 gap-4">
-            <div className="text-black  py-1 px-4 bg-white rounded-4xl">
+          <div className="flex gap-2">
+            <div className="text-black text-[0.7em]  py-1 px-4 w-fit bg-white rounded-4xl">
               Trainer & Coach Access
             </div>
-            <div className="text-black py-1 px-4 bg-white rounded-4xl">
+            <div className="text-black text-[0.7em] py-1 px-4 w-fit bg-white rounded-4xl">
               Priority Event
             </div>
-            <div className="text-black py-1 px-4 bg-white rounded-4xl">
+            <div className="text-black text-[0.7em] py-1 px-4 w-fit bg-white rounded-4xl">
               badgets
             </div>
           </div>

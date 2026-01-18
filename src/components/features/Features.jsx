@@ -5,7 +5,7 @@ import { FaBasketballBall } from "react-icons/fa";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 const Features = () => {
   return (
-    <section className="min-h-screen flex flex-col-reverse md:grid md:grid-cols-2 bg-gray-100 m-4">
+    <section className="min-h-screen my-[5em] flex flex-col-reverse md:grid md:grid-cols-2 bg-gray-100 m-4">
       <div className="p-[1em]">
         <div className="bg-gray-400 w-full min-h-40 md:min-h-[70vh] bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
           <div className="bg-white rounded-2xl w-[6em] h-[6em]"></div>

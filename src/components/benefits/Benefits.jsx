@@ -4,7 +4,7 @@ import { TbShirtSport } from "react-icons/tb";
 
 const Benefits = () => {
   return (
-    <section className="py-6 m-4 min-h-[65vh]">
+    <section className="py-6 my-[5em] m-4 min-h-[65vh]">
       <div className="flex flex-col md:flex-row  md:justify-between pt-[5em]">
         <div>
           <span className="flex gap-2.5 items-center">
