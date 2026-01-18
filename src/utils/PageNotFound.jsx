@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import image_not_found from "../../assets/page-not-found.jpg"
+import image_not_found from "../assets/page-not-found.jpg"
 const PageNotFound = () => {
   return (
     <section>

@@ -1,21 +1,10 @@
 import Header from "../components/partials/Header"
 import { LuCrown } from "react-icons/lu";
-// import hero_image from "../assets/hero.png"
-import { FaRegDotCircle } from "react-icons/fa";
-import { BiDish } from "react-icons/bi";
-import { TbShirtSport } from "react-icons/tb";
-import { CiBasketball } from "react-icons/ci";
-import { IoTrophyOutline } from "react-icons/io5";
-import { BsBroadcast } from "react-icons/bs";
-import { FaRegArrowAltCircleLeft } from "react-icons/fa";
-import { FaRegArrowAltCircleRight } from "react-icons/fa";
-import { BsArrowUpRightCircleFill } from "react-icons/bs";
-import { PiChatsCircleBold } from "react-icons/pi";
-// import { FaRegDotCircle } from "react-icons/di";
-import { VscJersey } from "react-icons/vsc";
-import { CiCloudSun } from "react-icons/ci";
-import { FaBasketballBall } from "react-icons/fa";
-import { DiDotnet } from "react-icons/di";
+
+import Program from "../components/programs/Program";
+import Benefits from "../components/benefits/Benefits";
+import Features from "../components/features/Features";
+import Testimonial from "../components/testimonials/Testimonial";
 const Home = () => {
   return (
     <>
@@ -34,180 +23,11 @@ const Home = () => {
         </section>
       </div>
 
-      <section className="py-6 m-4 min-h-[65vh]">
-        <div className="flex flex-col md:flex-row  md:justify-between pt-[5em]">
-          <div>
-            <span className="flex gap-2.5 items-center">
-              <FaRegDotCircle />
-              THE BENEFIT
-            </span>
-            <h1 className="font-bold text-4xl">
-              Explore our flexible of activity.
-            </h1>
-            <div className="flex justify-between md:justify-around my-4">
-              <span className="flex gap-2 items-center bg-white p-4 rounded-2xl">
-                <BiDish />
-                Eating After the Game
-              </span>
-              <span className="flex gap-2 items-center  bg-white p-4 rounded-2xl">
-                <TbShirtSport /> Game Jersey
-              </span>
-            </div>
-          </div>
-          <div className="bg-white rounded-2xl px-4 py-4 min-h-[50vh]">
-            <div>
-              <span>EST - 1997</span>
-              <h2>
-                Smart features designed to move with you - fast, flexible, and
-                built for everyday action
-              </h2>
-            </div>
-            <div></div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white rounded-2xl min-h-screen m-6 px-4 py-16">
-        <div className="flex flex-col-reverse justify-between">
-          <div className="flex gap-6 p-4 mb-8">
-            <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
-              <CiBasketball />
-              <h2>Virtual Challages</h2>
-            </span>
-            <span className="items-center flex gap-2.5 bg-gray-400 rounded-2xl">
-              <IoTrophyOutline />
-              <h2>Community Tournaments</h2>
-            </span>
-          </div>
-          <div className="flex gap-1.5 font-bold items-center">
-            <FaRegDotCircle />
-            <h2>The Program</h2>
-          </div>
-        </div>
-        <div className="flex flex-col justify-between md:grid md:grid-cols-3 gap-8">
-          <div className="w-full">
-            <div>
-              <span className="text-7xl ">01</span>
-              <span className="text-gray-700">/B</span>
-              <span className="text-gray-700">
-                Upcoming <br />
-                Events
-              </span>
-            </div>
-            <div className="flex gap-4">
-              <FaRegArrowAltCircleLeft size={45} />
-              <FaRegArrowAltCircleRight size={45} />
-            </div>
-          </div>
-          <div className="bg-black text-white rounded-2xl p-4 w-full h-96">
-            <h1>
-              The coach experts and simple software for better sportinment.
-            </h1>
-            <div className="flex justify-between m-2.5">
-              <div className="flex gap-4 items-center">
-                <BsBroadcast />
-                <h3>Live</h3>
-              </div>
-              <div>
-                <button className="border border-white rounded-2xl py-1 px-4">
-                  basketit.com
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="bg-[url(../assets/hero.jpg)] min-h-80 rounded-2xl p-4 w-full bg-no-repeat bg-cover">
-            <h4>1.20K Membership</h4>
-            <h1>
-              Chemistry <br /> Sport Partner
-            </h1>
-          </div>
-        </div>
-      </section>
-
-      <section className="min-h-screen flex flex-col-reverse md:grid md:grid-cols-2 bg-gray-100 m-4">
-        <div className="p-[1em]">
-          <div className="bg-gray-400 w-full min-h-40 md:min-h-[70vh] bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
-            <div className="bg-white rounded-2xl w-[6em] h-[6em]"></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <span className="font-bold">FEATURED FEATURES</span>
-            <h1 className="text-5xl text-black mb-2 ">
-              Stay motivated with activity tracking
-            </h1>
-            <div className="flex gap-2">
-              <VscJersey size={45} className="p-2 bg-white rounded-4xl" />
-              <CiCloudSun size={45} className="p-2 bg-white rounded-4xl" />
-              <FaBasketballBall
-                size={45}
-                className="p-2 bg-white rounded-4xl"
-              />
-              <span className="bg-orange-400 p-2 rounded-4xl">8 +</span>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 rounded-2xl bg-no-repeat bg-center bg-cover mt-[5em]">
-            <div className="flex justify-between">
-              <div>
-                <h2>Record - activities to boost your performance</h2>
-                <p className="font-bold">WITH GPT 4.0</p>
-              </div>
-              <BsArrowUpRightCircleFill size={70} color="orange" />
-            </div>
-            <div className="bg-[url(./assets/kick.jpg)] w-full h-[15em] "></div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-black text-white rounded-2xl p-8 m-5 min-h-[60vh] ">
-        <div className="grid grid-cols-[ifr, 2fr] gap-9">
-          <div>
-            <span>CURRENT EVENTS</span>
-          </div>
-          <div>
-            <h1 className="font-bold text-4xl">
-              To win over sports-minded consumers with products own technology
-              and excellent.
-            </h1>
-          </div>
-        </div>
-        <div>
-          <div></div>
-        </div>
-      </section>
-
-      <section className="min-h-screen m-4">
-        <div className="flex justify-between ">
-          <div>
-            <h1>What people are honestly saying right now</h1>
-          </div>
-          <div>
-            <span className="bg-white p-2 rounded-4xl m-4">Testimonial</span>
-            <div className="flex gap-4 bg-white p-2 rounded-4xl ">
-              <PiChatsCircleBold />
-              <h5>Customer Says</h5>
-            </div>
-          </div>
-        </div>
-        <div className="bg-white rounded-2xl h-[70vh]  mt-8 flex flex-col-reverse md:flex-row md:justify-between">
-          <div className="p-4">
-            <div className="font-bold flex gap-2">
-              <DiDotnet />
-              <p>
-                <span>1</span>/<span>20</span>
-              </p>
-            </div>
-
-            <h2>
-              "The activity tracker keeps me on track, and the community pushes
-              me to keep Me going. It's the perfect mix of fun and fitness"
-            </h2>
-
-            <div></div>
-          </div>
-          <div className="bg-[url(../assets/tennis.jpg)] bg-no-repeat bg-cover bg-center rounded-2xl"></div>
-        </div>
-      </section>
+      <Program/>
+      <Benefits/>
+      <Features/>
+      <Testimonial/>
+      
     </>
   );
 }
