@@ -21,7 +21,7 @@ const Testimonial = () => {
       <div className="bg-white shadow rounded-2xl grid grid-cols-2 min-h-[80vh] ">
         <div className="p-4">
           <div className="font-bold flex gap-2">
-            <GoDotFill  size={30}/>
+            <GoDotFill  className="animate-pulse"  size={30}/>
             <p>
               <span>1</span>/<span>20</span>
             </p>
@@ -34,7 +34,7 @@ const Testimonial = () => {
 
           <div></div>
         </div>
-        <div className="bg-[url(../assets/tennis.jpg)] bg-gray-200 bg-no-repeat bg-cover bg-center rounded-2xl"></div>
+        <div className="bg-[url(../assets/tennis.jpg)] bg-gray-200 bg-no-repeat bg-cover bg-center rounded-r-2xl"></div>
       </div>
     </section>
   );

@@ -5,6 +5,46 @@ const Footer = () => {
     <>
       <footer className="text-white bg-black min-h-[70vh] pt-2 p-4">
         
+        <div className="flex justify-between">
+          <div className="my-4">
+            <ul>
+              <li>
+                <Link to="/">Program</Link>
+              </li>
+              <li>
+                <Link to="/">Product</Link>
+              </li>
+              <li>
+                <Link to="/">Events</Link>
+              </li>
+              <ul>
+                <li>
+                  <Link to="/">X(Twitter)</Link>
+                </li>
+                <li>
+                  <Link to="/">Instagram</Link>
+                </li>
+                <li>
+                  <Link to="/">About</Link>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div className="my-4">
+            <ul>
+              <li className="hover:underline">
+                <Link to="/">X(Twitter)</Link>
+              </li>
+              <li>
+                <Link to="/">Instagram</Link>
+              </li>
+              <li>
+                <Link to="/">LinkedIn</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
 
         <div className="flex flex-col gap-4 justify-between">
           <div>

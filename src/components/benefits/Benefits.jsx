@@ -24,7 +24,7 @@ const Benefits = () => {
             </span>
           </div>
         </div>
-        <div className="bg-white shadow rounded-2xl px-4 py-4 min-h-[50vh]">
+        <div className="bg-white shadow rounded-2xl px-4 py-4 min-h-[80vh]">
           <div>
             <span>EST - 1997</span>
             <h2>
