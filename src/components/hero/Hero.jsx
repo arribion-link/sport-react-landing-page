@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <img src={hero_img} alt="" className="absolute right-80 max-w-[22em] z-50 -top-4" />
+      <img src={hero_img} alt="" className="absolute md:right-80 max-w-[20em] md:max-w-[22em] z-50 top-[23em]  md:-top-4" />
       <section className="mx-4 pt-16 relative">
         <div className="text-3xl text-yellow-500 ">
           <h1 className="text-blue text-[clamp(1em, 5vw, 3em)] font-bold p-4 ">

@@ -8,7 +8,9 @@ const Features = () => {
     <section className="min-h-screen my-[15em] flex flex-col-reverse md:grid md:grid-cols-2 bg-gray-100 m-4">
       <div className="p-[1em]">
         <div className="bg-gray-400 w-full min-h-40 md:min-h-[94vh] bg-[url(../assets/sports.jpg)] flex justify-center items-center rounded-2xl">
-          <div className="bg-white rounded-2xl min-w-[6em] min-h-[6em]">
+          <div
+            data-aos="zoom-in-up"
+            className="bg-white rounded-2xl min-w-[6em] min-h-[6em]">
             <img
               src={quick_chart}
               alt=""
@@ -41,7 +43,9 @@ const Features = () => {
             </div>
             <BsArrowUpRightCircleFill size={70} color="orange" />
           </div>
-          <div className="bg-[url(../assets/kick.jpg)] min-w-20 min-h-[15em] rounded-2xl m-4"></div>
+          <div
+            data-aos="zoom-in-up"
+            className="bg-[url(../assets/kick.jpg)] min-w-20 min-h-[15em] rounded-2xl m-4"></div>
         </div>
       </div>
     </section>

@@ -38,7 +38,9 @@ const Program = () => {
             <FaRegArrowAltCircleRight size={45} />
           </div>
         </div>
-        <div className="bg-black text-white rounded-2xl p-4 w-full h-96">
+        <div
+          data-aos="fade-up"
+          className="bg-black text-white rounded-2xl p-4 w-full h-96">
           <h1>The coach experts and simple software for better sportinment.</h1>
           <div className="flex justify-between m-2.5">
             <div className="flex gap-4 items-center">
@@ -52,7 +54,10 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url(../assets/field.jpg)] min-h-80 rounded-2xl p-4 w-full bg-no-repeat bg-cover">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          className="bg-[url(../assets/field.jpg)] min-h-80 rounded-2xl p-4 w-full bg-no-repeat bg-cover">
           <h4>1.20K Membership</h4>
           <h1>
             Chemistry <br /> Sport Partner

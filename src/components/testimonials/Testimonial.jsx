@@ -18,10 +18,12 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white shadow rounded-2xl grid grid-cols-2 min-h-[80vh] ">
+      <div
+        data-aos="zoom-in-left"
+        className="bg-white shadow rounded-2xl grid grid-cols-1 md:grid-cols-2 min-h-[80vh] ">
         <div className="p-4">
           <div className="font-bold flex gap-2">
-            <GoDotFill  className="animate-pulse"  size={30}/>
+            <GoDotFill className="animate-pulse" size={30} />
             <p>
               <span>1</span>/<span>20</span>
             </p>

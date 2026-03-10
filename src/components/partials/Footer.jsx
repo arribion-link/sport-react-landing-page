@@ -5,9 +5,9 @@ const Footer = () => {
     <>
       <footer className="text-white bg-black min-h-[70vh] pt-2 p-4">
         
-        <div className="flex justify-between">
+        <div className="md:flex justify-between">
           <div className="my-4">
-            <ul>
+            <ul className="flex gap-8">
               <li>
                 <Link to="/">Program</Link>
               </li>
@@ -17,21 +17,13 @@ const Footer = () => {
               <li>
                 <Link to="/">Events</Link>
               </li>
-              <ul>
-                <li>
-                  <Link to="/">X(Twitter)</Link>
-                </li>
-                <li>
-                  <Link to="/">Instagram</Link>
-                </li>
-                <li>
-                  <Link to="/">About</Link>
-                </li>
-              </ul>
+              <li>
+                <Link to="/">About</Link>
+              </li>
             </ul>
           </div>
           <div className="my-4">
-            <ul>
+            <ul className="flex gap-4">
               <li className="hover:underline">
                 <Link to="/">X(Twitter)</Link>
               </li>
@@ -55,8 +47,7 @@ const Footer = () => {
             <h1 className="text-blue-500">Arribion@gmail.com</h1>
             <h1>
               {" "}
-              &copy; <span>{new Date().getFullYear()}</span> Developed by Jeff
-              Arribion - @codnify.dev
+              &copy; <span>{new Date().getFullYear()}</span> Developed by Jeff Arribion 
             </h1>
           </div>
         </div>
